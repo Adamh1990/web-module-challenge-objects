@@ -28,13 +28,9 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
-const Sammich = createMenuItem('Sammich', 5, 'Lunch');
-console.log(Sammich);
-const Fries = createMenuItem('Fries', 2.5, 'Lunch');
-console.log(Fries);
-const Beer = createMenuItem('Beer', 1, 'Breakfast');
-console.log(Beer);
-
+console.log(createMenuItem('Burger', 5, 'Lunch'));
+console.log(createMenuItem('Fries', 3, 'Lunch'));
+console.log(createMenuItem('Beer', 2, 'Breakfast'));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to the 
